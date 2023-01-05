@@ -1,0 +1,19 @@
+.header__lang-link {
+  width: 30px;
+  height: 28px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+  display: grid;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: calc(16px + (100vw - 320px) / (768 - 320) * (24 - 18));
+  }
+}

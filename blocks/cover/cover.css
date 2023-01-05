@@ -1,0 +1,33 @@
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width:1160px){
+  .cover{
+    max-width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width:840px){
+  .cover{
+    margin: auto 0;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: calc(4rem + (100vw - 320px) / (768 - 320) * (92 - 66)) 0 calc(4rem + (100vw - 320px) / (768 - 320) * (92 - 64));
+  }
+}
+
+@media screen and (max-width:520px){
+  .cover{
+    margin: auto 0;
+    min-height: 200px;
+  }
+}

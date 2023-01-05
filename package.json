@@ -1,9 +1,9 @@
 {
   "name": "russian-travel",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "css-to-bem-file-structure style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "css-to-bem-file-structure": "0.0.2"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }
