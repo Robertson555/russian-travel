@@ -7,6 +7,6 @@
 @media screen and (max-width: 425px) {
   .places__blocks {
   display: grid;
-  gap: 50px
+  gap: 50px;
   }
 }
