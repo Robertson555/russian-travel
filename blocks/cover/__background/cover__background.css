@@ -3,7 +3,7 @@
   min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,8 @@
   transition: opacity 0.2s linear;
   content: '';
   position: absolute;
-  left: auto;
+  left: 0;
+  top: 0;
 }
 
 .cover__background:hover:after {
